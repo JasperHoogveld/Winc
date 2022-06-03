@@ -11,12 +11,11 @@ goal_0 = 32
 goal_1 = 54
 
 scorers = f'{player1} {goal_0}, {player2} {goal_1}'
-report = f'{player1} scored in the {goal_0}nd minute \n {player2} scored in the {goal_1}th minute'
-print(report)
+report = f'{player1} scored in the {goal_0}nd minute\n{player2} scored in the {goal_1}th minute'
 
 player = 'Ruud Gullit'
 first_name = player[:(player.find(' '))]
-last_name = len(player[player.find(' '):])
+last_name_len = len(player[player.find(' '):])-1
 name_short = (player[0] + '.' + player[(player.find(' ')):])
 chant = ((first_name + '! ') * len(first_name)).rstrip()
 good_chant =  ((chant[-1] != ' '))
