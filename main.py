@@ -7,11 +7,12 @@ __human_name__ = 'strings'
 player1 = 'Ruud Gullit'
 player2 = 'Marco van Basten'
 
-goal_0 = '32'
-goal_1 = '54'
+goal_0 = 32
+goal_1 = 54
 
-scorers = f'{player1} {goal_0},{player2} {goal_1}'
-report = f'{player1} scored in the {goal_0}nd minute \n {player2} scored in the {goal_1}nd minute'
+scorers = f'{player1} {goal_0}, {player2} {goal_1}'
+report = f'{player1} scored in the {goal_0}nd minute \n {player2} scored in the {goal_1}th minute'
+print(report)
 
 player = 'Ruud Gullit'
 first_name = player[:(player.find(' '))]
