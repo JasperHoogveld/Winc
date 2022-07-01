@@ -46,7 +46,7 @@ def find_password(cached_files):
                     break
                 else:
                     continue
-    return found_pass[10::]    
+    return found_pass[10::].rstrip()    
         
 
 #clean_cache()
